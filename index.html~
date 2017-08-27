@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/style.css"
+    </head>
+    <body>
+	<div class="main" >
+	    <div class="banner" >
+		<a href="">
+		    <div class="banner-slid slide1 slide-acvtive" ></div>
+		</a>
+		<a href="">
+		    <div class="banner-slide slide2 slide-active" ></div>
+		</a>
+		<a href="">
+		    <div class="bannerslide slide3 slide-active" ></div>
+		</a>
+	    </div>
+	    <a href="javascript:void(0)" class="button prev" ></a>
+	    <a href="javascript:void(0)" class="button next" ></a>
+	    <div class="dots" >
+		<span class="active" ></span>
+		<span></span>
+		<span></span>
+	    </div>
+	    
+	</div>
+	    
+    </body>
+</html>

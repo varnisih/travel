@@ -1,0 +1,20 @@
+function byId(id){
+    return typeof(if)==="string"?document.getElementById(id):id;
+}
+
+var index=0;
+var timer=null;
+function slideImg(){
+    var main=byId("main");
+    main.onmouseover=function(){
+	
+    }
+    main.onmouseover=function(){
+	timer=setInterval(function(){
+	    index++;
+	},3000);
+	
+    }
+}
+
+slideImg();
